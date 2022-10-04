@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contagem regressiva</title>
+  </head>
+  <body>
+    <h1>Contagem regressiva</h1>
+    <div id="container">
+      <p id="hora-label" class="label">Horas</p>
+      <p id="min-label" class="label">Minutos</p>
+      <p id="seg-label" class="label">Segundos</p>
+      <input id="horas" type="number" max="99" min="0" value="0" class="tempo" />
+      <p id="p1" class="semicolon">:</p>
+      <input id="minutos" type="number" max="60" min="0" value="0" class="tempo"/>
+      <p id="p2" class="semicolon">:</p>
+      <input id="seg" type="number" max="60" min="0" value="0" class="tempo" />
+    </div>
+    <div class="buttons">
+      <button id="inicio" class="btn">Iniciar</button>
+      <button id="pause" class="btn">Pausar</button>
+      <button id="reset" class="btn">Reset</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
